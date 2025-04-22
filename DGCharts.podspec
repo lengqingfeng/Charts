@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
   s.osx.deployment_target = "10.13"
   s.source = { :git => "https://github.com/danielgindi/Charts.git", :tag => "#{s.version}" }
   s.default_subspec = "Core"
-  s.swift_version = '5.7'
+  s.swift_version = '5.6'
   s.cocoapods_version = '>= 1.5.0'
   
   s.resource_bundles = {"DGCharts" => ["Source/Charts/PrivacyInfo.xcprivacy"]}
